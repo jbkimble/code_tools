@@ -21,3 +21,20 @@ system: system CPU time (i.e. time spent making system calls to the operating sy
 total: system CPU time + user CPU time
 
 real: Elapsed real time in seconds
+
+# Big O
+
+If you use the Big O code snippet the output will give you an additional line showing the rate that the execution time of your code is increasing
+
+```
+user     system      total        real
+10        0.000000   0.000000   0.000000 (  0.000006)
+100       0.000000   0.000000   0.000000 (  0.000010)
+1,000     0.000000   0.000000   0.000000 (  0.000109)
+10,000    0.000000   0.000000   0.000000 (  0.000570)
+100,000   0.010000   0.000000   0.010000 (  0.004679)
+1,000,000  0.050000   0.000000   0.050000 (  0.048879)
+10,000,000  0.480000   0.000000   0.480000 (  0.491444)
+Rate of increase in execution time: ["x1.0", "x1.81", "x10.3", "x5.24", "x8.21", "x10.4", "x10.0"]
+
+```
