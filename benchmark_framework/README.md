@@ -5,10 +5,10 @@
 Below is what the output in the terminal will look like
 
 ```
-            user     system      total        real
-[0]       0.230000   0.000000   0.230000 (  0.237836)
-sub       0.580000   0.010000   0.590000 (  0.593332)
-gsub      2.260000   0.050000   2.310000 (  2.331633)
+                     user     system      total        real
+code_label_1       0.230000   0.000000   0.230000 (  0.237836)
+code_label_2       0.580000   0.010000   0.590000 (  0.593332)
+code_label_3      2.260000   0.050000   2.310000 (  2.331633)
 
 ```
 
@@ -27,7 +27,7 @@ real: Elapsed real time in seconds
 If you use the Big O code snippet the output will give you an additional line showing the rate that the execution time of your code is increasing
 
 ```
-user     system      total        real
+times_run    user     system      total        real
 10        0.000000   0.000000   0.000000 (  0.000006)
 100       0.000000   0.000000   0.000000 (  0.000010)
 1,000     0.000000   0.000000   0.000000 (  0.000109)
