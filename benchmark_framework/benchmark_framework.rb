@@ -1,6 +1,5 @@
 require 'benchmark'
 require './code_to_benchmark'
-require 'pry'
 
 TEN = 10
 HUNDRED = 100
@@ -10,16 +9,16 @@ HUNDRED_THOUSAND = 100_000
 MILLION = 1_000_000
 TEN_MILLION = 10_000_000
 
-# For comparing code that performs the same function
+################## For comparing code that performs the same function ##########
 
-# Benchmark.bm(7) do |x|
-#   x.report('report_label_1') { MILLION.times { some_code_to_execute } }
-#   x.report('report_label_2') { MILLION.times { some_code_to_execute } }
-#   x.report('report_label_3') { MILLION.times { some_code_to_execute } }
-#   x.report('report_label_4') { MILLION.times { some_code_to_execute } }
-# end
+Benchmark.bm(7) do |x|
+  x.report('report_label_1') { MILLION.times { some_code_to_execute } }
+  x.report('report_label_2') { MILLION.times { some_code_to_execute } }
+  x.report('report_label_3') { MILLION.times { some_code_to_execute } }
+  x.report('report_label_4') { MILLION.times { some_code_to_execute } }
+end
 
-# For testing O(n)
+################## For testing O(n) ############################################
 
 # execution_time_increase_rates = Array.new
 # Benchmark.bm(7) do |x|
