@@ -2,6 +2,7 @@
 
 ### A simple plug and play framework for testing speed and 'Big O' times of different bits of ruby code
 
+# Testing Speed of Different Snippets That Perform The Same Function
 Below is what the output in the terminal will look like
 
 ```
@@ -22,7 +23,7 @@ total: system CPU time + user CPU time
 
 real: Elapsed real time in seconds
 
-# Big O
+# Big O - Testing Same Code Run An Increasing Number Of Times
 
 If you use the Big O code snippet the code will be run through a cycle of 7 orders of magnitude
 and the output will have an additional line showing the rate that the execution time of your code is increasing
