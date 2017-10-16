@@ -7,6 +7,10 @@ class DatClass
   def self.second_awesome_method(name)
     puts "Hey #{name}, you're awesome!"
   end
+
+  def self.third_method(name)
+    puts "Hey #{name}, go believe in your ability to do what needs to be done to help others :D!"
+  end
 end
 
 DatClass.some_method("Matilda")
