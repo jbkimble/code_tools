@@ -19,7 +19,6 @@ class RefactoredClass
     puts "This is the modified array: " + new_arr
   end
 
-
   def print_nums_in_english
     puts "Starting second method..."
     arr.each do |num|
